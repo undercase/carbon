@@ -19,6 +19,7 @@ export default class carbon extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Text style={styles.logo}>carbon</Text>
       </View>
     );
   }
