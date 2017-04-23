@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -8,8 +8,20 @@ const styles = StyleSheet.create({
   },
   logo: {
     fontFamily: 'Roboto-Light',
-    color: '#373737',
-    fontSize: 80
+    color: '#ffffff',
+    fontSize: 100
+  },
+  backgroundImage: {
+    flex: 1,
+    height: Dimensions.get('window').height,
+    width: Dimensions.get('window').width,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  tap: {
+    color: "#ffffff",
+    fontFamily: 'Roboto-Light',
+    fontSize: 20
   }
 });
 
