@@ -22,6 +22,11 @@ const styles = StyleSheet.create({
     color: "#ffffff",
     fontFamily: 'Roboto-Light',
     fontSize: 20
+  },
+  camera: {
+    flex: 1,
+    height: Dimensions.get('window').height,
+    width: Dimensions.get('window').width
   }
 });
 

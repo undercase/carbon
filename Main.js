@@ -17,7 +17,13 @@ import styles from './styles';
 export default class Home extends Component {
   render() {
     return (
-      <Camera />
+      <Camera
+        ref={(cam) => {
+          this.camera = cam;
+        }}
+        style={styles.camera}
+        aspect={Camera.constants.Aspect.fill}>
+      </Camera>
     );
   }
 }

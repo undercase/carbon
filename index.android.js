@@ -17,6 +17,7 @@ import {
 } from 'react-native';
 
 import Home from './Home';
+import Main from './Main';
 
 import styles from './styles';
 
@@ -25,8 +26,8 @@ export default class carbon extends Component {
     super(props);
     this.state = {
       screens: {
-        home: <Home switchScreen={this.handleScreen}/>,
-        main: <Text>Hello world</Text>
+        home: <Home switchScreen={this.handleScreen} />,
+        main: <Main switchScreen={this.handleScreen} />
       },
       currentScreen: 'home'
     };
