@@ -27,6 +27,10 @@ const styles = StyleSheet.create({
     flex: 1,
     height: Dimensions.get('window').height,
     width: Dimensions.get('window').width
+  },
+  info: {
+    margin: 0,
+    padding: auto
   }
 });
 
